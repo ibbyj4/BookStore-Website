@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Pay</title>
+        <script src="pay.js"></script>
+        <link rel="stylesheet" href="index.css">
+
+
+
+    </head>
+
+    <body>
+
+        <h1>Payment Page</h1>
+
+        <div id="navigation">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <br/>
+
+
+        <br/>
+
+        <img id="card" src="./mastercard.png" style="max-width: 10%;" alt = "There is currently an error with this picture!"/>
+        <img id="card" src="./visa.png" style="max-width: 14%;" alt = "There is currently an error with this picture!"/>
+
+        
+
+        <p>Please Input the required card details below</p>
+
+        <form id="payment-form">
+            <input type="Name" id="Name" placeholder="Full name on card" required>
+            <br/>
+            <br/>
+            <input type="Card Number" id="Card Number" placeholder="Card Number" maxlength="16" required>
+            <br/>
+            <br/>
+            <input type="Expiration date" id="Expiration date" placeholder="Expiration date" maxlength="6" required>
+            <br/>
+            <br/>
+            <input type="CVV number" id="CVV number" placeholder="CVV number" maxlength="4" required>
+            <p>Usually found on the back of your Card</p>
+
+            <br/>
+            <input type="submit" id="pay" value="Pay">
+            <p>By clicking sign up, you agree to our <a href="./terms.html">Terms</a>, <a href="./why.html">Data Policy</a> and <a href="./cookie.html">Cookie Policy</a>. You may recieve SMS notification forms from us and you can opt out at any time.</p>
+
+
+            
+        </form>
+
+        
+
+
+
+
+
+
+    </body>
+</html>
